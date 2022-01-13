@@ -77,7 +77,7 @@ def upload_file():
             logger.error("code failed")
             return jsonify({"message":"some error occured."})
     
-#    except:
+#    except:hiu
 #        
 #        logger.warning("Invalid json or some key value pair were missing")
 #        return jsonify({"Message":"Data is invalid/missing"})
